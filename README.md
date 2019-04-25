@@ -1,2 +1,2 @@
 # hangman.github.io
-Hangman game with Javascript 
+https://artpolly1.github.io/hangman.github.io/
