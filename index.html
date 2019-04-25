@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+<title>Hangman</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" href="assets/CSS/style.css">
+
+    </head>
+    <body>
+
+        <div class="container-fluid">
+                <div class="jumbotron jumbotron-fluid">
+                        <h1 class="display-4 text-center">Hangman Game</h1>
+                        <p class="text-center">Guess the name of the student in our class!!</p>
+                    </div>
+
+                    <div class="card">
+                            <div class="card-header">
+                             Word to Guess
+                            </div>
+                            <div class="card-body">
+                              <h2 id="nameToGuess">_ _ _  </h2>
+                             
+                            </div>
+                          </div> <br/>
+
+                          <div class="card">
+                                
+                                <div class="card-body">
+                                    Wrong Gusses: <span id="wrongGuesses"></span>
+                                </div>
+                              </div><br/>
+
+                              <div class="card">
+                                    <div class="card-body">
+                                        Guesses Left:  <span id="numGuesses">9</span>
+                                      
+                                     
+                                    </div>
+                                  </div><br/>
+                                  <div class="card">
+                                        <div class="card-body">
+                                            Games Won: <span id="winCounter">0</span>
+                                          
+                                         
+                                        </div>
+                                      </div><br/>
+                                      <div class="card">
+                                            <div class="card-body">
+                                                Games Lost: <span id="lossCounter">0</span>
+                                              
+                                             
+                                            </div>
+                                          </div><br/>
+
+                              
+
+                                    
+        </div>
+
+           
+
+
+
+
+
+
+
+
+            <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+      <script src="assets/javascript/logic.js"></script>
+    </body>
+</html>
+
+    
